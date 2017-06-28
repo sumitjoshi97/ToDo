@@ -4,37 +4,33 @@ The code is present in /src/ folders.
 
 File Structure
 
-----------------------------------------------
--build
--node_modules
--public
--|--index.html
+-|-build
+-|-node_modules
+-|-public
+-|-|--index.html
+-|-src
+-|-|--components
+-|-|--|--Footer.jsx
+-|-|--|--Header.jsx 
+-|-|--|--Input.jsx
+-|-|--|--SubInput.jsx
+-|-|--|--SubSubList.jsx
+-|-|--containers
+-|-|--|--List
+-|-|--|--SubList
+-|-|--|--Todo
+-|-css
+-|-|--|--Input.css
+-|-|--|--List.css
+-|-|--|--Remove.css
+-|-|--|--SubInput.css
+-|-|--|--SubList.css
+-|-|--|--SubSubList.css
+-|-App.js
+-|-App.css
+-|-index.js
+-|-index.css
+-|-App.test.js
 
--src
--|--components
--|--|--Footer.jsx
--|--|--Header.jsx 
--|--|--Input.jsx
--|--|--SubInput.jsx
--|--|--SubSubList.jsx
 
--|--containers
--|--|--List
--|--|--SubList
--|--|--Todo
-
--css
--|--|--Input.css
--|--|--List.css
--|--|--Remove.css
--|--|--SubInput.css
--|--|--SubList.css
--|--|--SubSubList.css
-
--App.js
--App.css
--index.js
--index.css
--App.test.js
-
-----------------------------------------------
+This Todo App is not responsive so render app in desktop fullscreen.
