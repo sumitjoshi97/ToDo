@@ -1,0 +1,41 @@
+li {
+    display: inline-block;
+    text-align: left;
+    width:inherit;
+    flex-flow: row;
+    padding: 20px;
+    list-style: none;
+    border-radius: 4px;
+   
+}
+
+li>.taskList {
+    text-align: center;
+    width: 350px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+    background-color: #8FE48A;
+}
+
+.add {
+    margin: 0px auto;
+    margin-top: 10px;
+    border: 0;
+    box-shadow: none;
+    font-size: 24px;
+    float: bottom;
+}
+
+.task {
+    float: left;
+    font-size: 25px;
+    color: #000;
+    border: 0;
+    text-transform: none;
+    justify-content: center;
+    display: flex;
+}
+
+.heading {
+    font-size: 25px;
+}

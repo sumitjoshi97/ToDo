@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.App {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.App-header {
+    font-size: 40px;
+}
+
+#todo {
+    text-transform: uppercase;
+    border-bottom: 5px solid #8F1AF1;
+    color: #8F1AF1;
+}
+
+button {
+    background-color: #8FE48A;
+}
+
+ul {
+    text-align: left;
+}

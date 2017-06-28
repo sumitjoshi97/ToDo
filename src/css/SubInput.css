@@ -1,0 +1,21 @@
+#subInput {
+    height: 26px;
+    background-color: #8FE48A  ;
+}
+
+#subInput>input {
+    width:250px;
+    height: 20px;
+    font-size: 15px;
+    margin: 0px auto;
+    float: left;
+}
+#subInput>#btn {
+    height: 26px;
+    width: 26px;
+    float: right;
+    background-color: #8FE48A  ;
+    border: 0;  
+    font-size: 18px;
+    box-shadow: none;
+}
