@@ -1,12 +1,18 @@
-.SubTask {
-    float: left;
+.SubList {
+    width: 300px;
+    margin: 0px auto;
+    font-size: 20px;
+    padding: 4px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: right;
+    border: 2px solid #A579D1;
+    border-radius: 4px;
+    background-color: #D3A6FF;
+    min-height: 30px;
 }
 
-button {
-    background-color: #8FE48A;
-    margin-left: 20px;
-    margin-right: 0px;
-    border: 0;
-    box-shadow: none;
-    font-size: 20px;
+.SubTask {
+    text-align: left;
 }
+

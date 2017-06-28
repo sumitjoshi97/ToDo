@@ -20,5 +20,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/sumitjoshi97/ToDo"
+  "homepage": "https://github.com/sumitjoshi97/todo"
 }

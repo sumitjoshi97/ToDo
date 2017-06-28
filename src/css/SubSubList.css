@@ -1,0 +1,25 @@
+.subSubList {
+    text-align: right;
+     width: 200px;
+     margin: 0px auto;
+      
+    
+}
+.subSub {
+    text-align: left;
+    background-color: #FF864A;  
+   border: 2px solid #E14C02;
+   border-radius: 2px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0px auto;
+    
+}
+.subSubTitle {
+    text-align: left;
+}
+.subBtn {
+    text-align: right;
+    padding: 4px;
+
+}

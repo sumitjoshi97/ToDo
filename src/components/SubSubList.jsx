@@ -1,17 +1,19 @@
-import React, { Component } from 'react';
-import Remove from './Remove';
-import Edit from './Edit';
+import React from 'react';
 
-class SubSubList extends Component {
-    render() {
-        return (
-            <li>
-                {this.props.task}
+import '../css/SubSubList.css';
 
-                <Remove remove={this.props.removeSubSub} />
-            </li>
-        )
-    }
+const SubSubList = (props) => {
+    return (
+        <div class="subSubList">
+            <div className="subSub">
+                <span className="subSubTitle">
+                    {props.task}
+                </span>
+
+                <i className="btn fa fa-trash-o" onClick={props.removeSubSub} />
+            </div>
+        </div>
+    );
 }
 
 export default SubSubList;

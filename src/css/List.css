@@ -1,20 +1,20 @@
-li {
-    display: inline-block;
-    text-align: left;
-    width:inherit;
-    flex-flow: row;
-    padding: 20px;
-    list-style: none;
-    border-radius: 4px;
-   
-}
-
-li>.taskList {
-    text-align: center;
+.taskList {
+    float:left;
+    position:relative;
+    margin: 0 auto;
+    margin:0 55px 70px 55px;
+    text-align:center;
+    font-size: 25px;
     width: 350px;
     font-family: 'Open Sans', sans-serif;
-    padding: 15px;
+    padding: 15px 15px 0 15px;
     background-color: #8FE48A;
+    border: 2px solid #3BC433;
+    border-radius: 6px;
+}
+
+.title {
+    text-align: left;
 }
 
 .add {
@@ -22,20 +22,16 @@ li>.taskList {
     margin-top: 10px;
     border: 0;
     box-shadow: none;
-    font-size: 24px;
+    font-size: 30px;
     float: bottom;
 }
 
-.task {
-    float: left;
-    font-size: 25px;
-    color: #000;
-    border: 0;
-    text-transform: none;
-    justify-content: center;
-    display: flex;
+.btn {
+    float: right;
+    font-size: 20px;
+    padding-right: 4px;
 }
 
 .heading {
-    font-size: 25px;
+    padding-bottom: 5px;
 }

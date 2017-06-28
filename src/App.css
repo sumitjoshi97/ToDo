@@ -1,23 +1,35 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans');
 .App {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
 
 .App-header {
-    font-size: 40px;
+    font-size: 15px;
+    margin: 0px auto;
+    padding: 10px 0;
+    background-color: #222;
+    color: #D0D0D0;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
 }
 
 #todo {
-    text-transform: uppercase;
-    border-bottom: 5px solid #8F1AF1;
-    color: #8F1AF1;
+    color: #E2E2E2;
+    font-size: 46px;
+    font-family: 'Lobster', sans-serif;
 }
 
-button {
-    background-color: #8FE48A;
+a {
+    padding: 5px;
+    color: #E0E0E0;
+    border-radius: 3px;
 }
 
-ul {
-    text-align: left;
+a:hover {
+    background-color: #E0E0E0;
+    color: #222;
 }
